@@ -2,14 +2,11 @@
 # 34. Даны два файла в каждом из которых находится запись многочлена. 
 # Сформировать файл, содержащий сумму многочленов
 
-from operator import le
-import re
-import itertools
 
+import re
 
 file1 = 'Mnogo.txt'
 file2 = 'Mnogo_2.txt'
-file_sum = '34_Sum_polynomials.txt'
 
 with open(str(file1), 'r') as data:
     pol = data.read()
